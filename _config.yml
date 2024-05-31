@@ -21,12 +21,14 @@
 title: Internship Work Portfolio
 email: mail@zrchen.me
 description: >- # this means to ignore newlines until "baseurl:"
-  Internal financial reporting app
+  During my internship at ITP Renewables, I made several contributions to various aspects of an internal financial reporting app, including feature development, code refactoring, API optimization, and database interaction improvements.
 baseurl: "/internship-portfolio" # the subpath of your site, e.g. /blog
 url: "https://z-r-chen.github.io/internship-portfolio" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
-some_url: "https://google.com"
+linkedin_url: "https://www.linkedin.com/in/zhongrui-chen-3b3966210/"
+company_url: "https://itpau.com.au/"
+owner_name: "Zhongrui Chen"
 
 # Build settings
 # theme: jekyll-theme-minimal
