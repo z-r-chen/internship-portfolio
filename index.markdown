@@ -1,123 +1,74 @@
 ---
-layout: default
+layout: my_layout
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+<!-- # Internship Work Portfolio -->
 
-[Link to another page](./another-page.html).
+## Introduction
+During my internship at ITP Renewables, I made several contributions to various aspects of the project, including feature development, code refactoring, API optimization, and database interaction improvements. Below is a detailed report of my contributions.
 
-There should be whitespace between paragraphs.
+## Techniques
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+Django, Django REST, React, Bootstrap, Google Cloud
 
-# Header 1
+## Contributions
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+<!-- ### Feature Development -->
+- **Feature Development**: Developed features that provide users with additional input options, toggleable changelogs to key data fields, and new descriptive views. These enhancements improve user experience by offering more flexibility and transparency.
 
-## Header 2
+<!-- ### Code Refactoring -->
+- **Code Refactoring**: Refactored React components from class-based to functional, introducing more generic abstractions. This transition leverages the advantages of React Hooks for easier life-cycle management, minimizes unnecessary re-renders, and improves code maintainability.
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+<!-- ### API Optimization -->
+- **API Optimization**: Optimized API interactions by pruning redundant API calls on the frontend. Designed new model serializers and request handlers in Django REST to replace the previous nested serialization method, resulting in a more efficient data exchange pipeline.
 
-### Header 3
+<!-- ### Database Optimization -->
+- **Database Optimization**: Optimized database interactions using Django ORM-related methods to prevent duplicate queries for fetching the same resource. Mitigated the N + 1 query problem existing in the codebase, enhancing overall database performance.
+
+## Implementation
+
+### Feature Development
+1. **Additional Input Options**:
+   - Implemented new input fields to enhance user input capabilities.
+   - Ensured seamless integration with the existing data processing pipeline.
+
+2. **Toggleable Changelogs**:
+   - Developed a feature to allow users to toggle changelogs for key data fields.
+![changelog](/images/changelog.png)
+   - Enabled better tracking of changes and improved data management.
+
+3. **Descriptive Views**:
+   - Created new views that provide detailed descriptions of data.
+   - Enhanced the user interface with informative and user-friendly displays.
+
+### Code Refactoring
+1. **React Component Refactoring**:
+   - Transitioned from class-based to functional components.
 
 ```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
+class function(a, b) {
+    return x;
 }
 ```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+   - Utilized React Hooks (useState, useEffect, etc.) for state and life-cycle management.
+   - Improved code readability and maintainability.
 
-#### Header 4
+### API Optimization
+1. **Redundant API Call Pruning**:
+   - Identified and removed redundant API calls on the frontend.
+   - Reduced unnecessary network requests, improving performance.
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+2. **Model Serializers and Request Handlers**:
+   - Designed new model serializers in Django REST to streamline data serialization.
+   - Created efficient request handlers to manage API requests.
+   - Replaced nested serialization with a more efficient method, reducing payload size and processing time.
 
-##### Header 5
+### Database Optimization
+1. **Django ORM-related Methods**:
+   - Utilized Django ORM-related methods (e.g., select_related, prefetch_related) to optimize query performance.
+   - Addressed and mitigated the N + 1 query problem.
+   - Ensured efficient resource fetching, reducing database load and improving response times.
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-<!-- ### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png) -->
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+## Conclusion
+Throughout my internship, I focused on improving the project's overall efficiency, maintainability, and user experience. By developing new features, refactoring code, and optimizing both API and database interactions, I contributed to creating a more robust and performant system.
